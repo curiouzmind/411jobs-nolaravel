@@ -154,7 +154,7 @@
                                 </div>
                                 <div class="card__meta"><span class="btn btn-xs"><a href="#">Google</a></span><span class="btn btn-xs"><a href="#">Program Management</a></span><span class="btn btn-xs"><a href="#">Lagos</a></span></div>
                                 <article class="card__article">
-                                  <h3 class="m5-top"><a href="#">Developer Relations Ecosystem Program Manager, Sub-Saharan Africa</a></h3>
+                                  <h3 class="m5-top"><a href="../single-post.php">Developer Relations Ecosystem Program Manager, Sub-Saharan Africa</a></h3>
                                   <p class="m0-bttm">As a Program Manager at Google, you lead complex, multi-disciplinary projects. You plan requirements with internal customers and usher projects through the entire project lifecycle. This includes managing project schedules, identifying risks and clearly communicating goals to project stakeholders. </p>
                                 </article>
                       </div>

@@ -85,6 +85,25 @@ a:focus {
  	padding: 0 100px;
  }
 
+ /*Single-Post page*/
+ #single-post .post-card-img {
+ 	height: 100px;
+ }
+ #single-post .post-card-img .card__image p.recruiter-name {
+ 	padding: 20px 15px;
+ 	text-align: left;
+ }
+/* Icon when the collapsible content is hidden */
+ .panel-title a.icon-collapsed:after {
+	font-family: "Glyphicons Halflings";
+    content: "\e080";
+}
+ /* Icon when the collapsible content is shown */
+ .panel-title a:after {
+    font-family: "Glyphicons Halflings";
+    float: right;
+    content: "\e114";
+}
 
  /* pagination */
  .pagination > .active > a, 
@@ -128,6 +147,9 @@ a:focus {
  .content-sidebar .panel .list-group a p.sb-recruiter-name i {
  	display: block;
  }
+  .more-jobs-carousel h5,
+  .more-jobs-carousel h6,
+  .more-jobs-carousel p span,
   .content-sidebar .panel .list-group a h4,
   .content-sidebar .panel .list-group a p span,
   .content-sidebar .panel .list-group a p.sb-recruiter-name {
@@ -155,6 +177,31 @@ a:focus {
  	height: auto;
  }
 
+ /*content more jobs carousel*/
+ .more-jobs-carousel h5,
+  .more-jobs-carousel h6,
+  .more-jobs-carousel p span {
+  	color: 
+  }
+
+  .more-jobs-employer #owl-demo .item {min-height: 100px;}
+
+  .more-jobs-employer .more-jobs-carousel h6.job-title,
+  .more-jobs-role .more-jobs-carousel h6.job-title {
+  	display: block;
+	  /* Fallback for non-webkit */
+	  display: -webkit-box;
+	  display: -moz-box;
+	  height: 32.2px;
+	  /* Fallback for non-webkit */
+	  -webkit-line-clamp: 2;
+	  -moz-line-clamp: 2;
+	  -webkit-box-orient: vertical;
+	  -moz-box-orient: vertical;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  white-space: normal;
+  }
 
  /**
  * Helpers
@@ -324,7 +371,11 @@ a:focus {
 	.share-toggle.share-expanded:before {
 		content: "\f00d";
 	}
-
+a.apply-circle {
+	background-color: #E51C23;
+	color: #fff !important;
+}
+.apply-circle,
 .like-icon,
 .share-icon {
 	display: inline-block;
@@ -341,6 +392,8 @@ a:focus {
 	  		0 2px 4px rgba(0,0,0, 0.12),
 	    	0 2px 4px rgba(0,0,0, 0.24);
 }
+	.apply-circle:hover,
+	.apply-circle:focus,
 	.like-icon:hover,
 	.like-icon:focus,
 	.share-icon:hover,
@@ -386,7 +439,40 @@ a:focus {
  	color: #666;
  }
 
+/* plugins */
+
+/*owl-carousel*/
+	#owl-demo .item{
+	  background: inherit;
+		border: 1px solid #DDD;
+		margin: 10px;
+		color: #333 !important;
+		border-radius: 3px;
+		text-align: left;
+		padding: 0px 6px;
+		min-height: 120px;
+	}
+	.item a:hover {
+		text-decoration: none;
+	}
+	#owl-demo .item h1{color: #fff;}
+	.customNavigation{
+	  text-align: center;
+	}
+	//use styles below to disable ugly selection
+	.customNavigation a{
+	  -webkit-user-select: none;
+	  -khtml-user-select: none;
+	  -moz-user-select: none;
+	  -ms-user-select: none;
+	  user-select: none;
+	  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	}
+
 /* general utilities*/
+.bg-white {background-color: #fff !important;}
+.white {color: #fff !important;}
+
 .m0 {margin: 0;}
 .m5 {margin: 5;}
 .m10 {margin: 10;}
