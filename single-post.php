@@ -2,6 +2,16 @@
 <html lang="en">
   <?php include 'includes/head.php';?>
   <body class="body" id="single-post">
+    <!-- facebook comment js -->
+    <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+    <!-- fb comments ends -->
     <!-- page wrapper -->
     <div class="wrapper">
       <!-- header-top-bar -->
@@ -206,6 +216,21 @@
                     </div>
                   </div>
                 </div>
+                <!-- pager -->
+                <div class="blog-pager clearfix" id="blog-pager">                  
+                  <a class="btn btn-danger pull-right" href="" data-toggle="tooltip" title="Older Post">
+                  <i class="fa fa-arrow-right"></i>
+                  </a>
+                  <a class="home-link btn btn-danger pull-left" href=""data-toggle="tooltip" title="Home">
+                  <i class="fa fa-home"></i>
+                  </a>
+                </div>
+                <!-- facebook comments box -->
+                <div class="row m20-top clearfix">
+                  <div class="col-md-12">
+                    <div class="fb-comments" data-href="http://411jobs.curiouzmind.com/" data-width="100%" data-numposts="5"></div>
+                  </div>
+                </div>
               </div>
               <!-- sidebar panels >>  subscription, ads, top posts, fb plugin-->
                 <?php include 'includes/sidebar.php'; ?>
@@ -245,6 +270,10 @@
             $(".stop").click(function(){
               owl.trigger('owl.stop');
             })         
+          });
+          // tooltip
+          $(document).ready(function(){
+              $('[data-toggle="tooltip"]').tooltip(); 
           });
       </script>
   </body>

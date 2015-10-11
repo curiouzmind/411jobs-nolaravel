@@ -468,6 +468,10 @@ a.apply-circle {
 	  user-select: none;
 	  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 	}
+/*facebook plugin*/
+.fb-plugin {
+	height: 185px;
+}
 
 /* general utilities*/
 .bg-white {background-color: #fff !important;}
