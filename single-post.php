@@ -74,17 +74,35 @@
                                 </div>
                                 
                                 <article class="card__article p20-top">
+                                  <!-- Overview -->
+                                  <div class="well row">
+                                    <h5 class="m0-top">Overview</h5>
+                                    <div class="col-md-6">
+                                      <ul class="list-unstyled">
+                                        <li><span class="bold m10-right"><strong>Location:</strong></span>Lagos</li>
+                                        <li><span class="bold m10-right"><strong>Posted :</strong></span>10 Oct 2015</li>
+                                        <li><span class="bold m10-right"><strong>Closing :</strong></span>20 Jan 2016</li>
+                                      </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                      <ul class="list-unstyled">
+                                        <li><span class="bold m10-right"><strong>Job Type :</strong></span>Experienced</li>
+                                        <li><span class="bold m10-right"><strong>Job Sector :</strong></span>IT/Telecommunication</li>
+                                        <li><span class="bold m10-right"><strong>Salary :</strong></span>N100,000 - N150,000</li>
+                                      </ul>
+                                    </div>
+                                  </div>
                                   <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                     <!-- job description -->
                                     <div class="panel panel-default">
                                       <div class="panel-heading bg-white" role="tab" id="headingOne">
                                         <h4 class="panel-title">
-                                          <a role="button" class="icon-collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                          <a role="button" class="icon-collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                             <i class="fa fa-newspaper-o fa-2x"></i> Job Description
                                           </a>
                                         </h4>
                                       </div>
-                                      <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                      <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                                         <div class="panel-body">
                                           Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                                         </div>
@@ -227,7 +245,7 @@
                 </div>
                 <!-- facebook comments box -->
                 <div class="row m20-top clearfix">
-                  <div class="col-md-12">
+                  <div class="col-md-12 fb-comment">
                     <div class="fb-comments" data-href="http://411jobs.curiouzmind.com/" data-width="100%" data-numposts="5"></div>
                   </div>
                 </div>
