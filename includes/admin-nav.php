@@ -30,11 +30,11 @@
                       <li><a href=""><i class="fa fa-facebook"></i></a></li>
                     </ul>
                   </li>
-                  <li class="active"><a href="../help/"><i class="fa fa-home"></i> Admin Home</a>
+                  <li class="active"><a href="../admin.php"><i class="fa fa-home"></i> Admin Home</a>
                   </li>
                   <li><a href="http://411jobs.local/">View Blog</a></li>
                   <li><a href="">New Post</a></li>
-                  <li><a href="http://411jobs.local/admin.php#view-posts" target="_blank">View Posts</a></li>
+                  <li><a href="../admin.php#overview" target="_blank">View Posts</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                 </ul>
