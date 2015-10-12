@@ -1,6 +1,6 @@
 <div class="col-md-4 content-sidebar">
                 <!-- subscribe panel -->
-                <div class="panel panel-default">
+                <div class="panel panel-default subscribe-box">
                   <div class="panel-heading"><h5 class="m0">Subscribe for jobs alerts</h5></div>
                   <div class="panel-body">
                     <div class="form-group">

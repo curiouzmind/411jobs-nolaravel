@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <title>Single Post | 411Jobs</title>
   <?php include 'includes/head.php';?>
   <body class="body" id="single-post">
     <!-- facebook comment js -->
