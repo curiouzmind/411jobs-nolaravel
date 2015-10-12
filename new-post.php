@@ -12,8 +12,9 @@
       <!-- contents -->
       <div class="content">
         <div class="container">
-          <!-- navigation menu -->
-           
+          <!-- header-top-bar -->
+            <?php include 'includes/admin-nav.php'; ?>
+          <!-- header-top-bar ends -->
           <!--  main-content-->
           <div class="main-content">
             <!-- post title bar -->
