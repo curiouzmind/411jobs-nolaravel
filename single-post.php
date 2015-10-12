@@ -80,14 +80,15 @@
                                     <div class="col-md-6">
                                       <ul class="list-unstyled">
                                         <li><span class="bold m10-right"><strong>Location:</strong></span>Lagos</li>
-                                        <li><span class="bold m10-right"><strong>Posted :</strong></span>10 Oct 2015</li>
-                                        <li><span class="bold m10-right"><strong>Closing :</strong></span>20 Jan 2016</li>
+                                        <li><span class="bold m10-right"><strong>Job Role :</strong></span>Programme Management</li>
+                                        <li><span class="bold m10-right"><strong>Job Type :</strong></span>Experienced</li>
+                                        <li><span class="bold m10-right"><strong>Job Sector :</strong></span>IT/Telecommunication</li>
                                       </ul>
                                     </div>
                                     <div class="col-md-6">
-                                      <ul class="list-unstyled">
-                                        <li><span class="bold m10-right"><strong>Job Type :</strong></span>Experienced</li>
-                                        <li><span class="bold m10-right"><strong>Job Sector :</strong></span>IT/Telecommunication</li>
+                                      <ul class="list-unstyled">                                        
+                                        <li><span class="bold m10-right"><strong>Posted :</strong></span>10 Oct 2015</li>
+                                        <li><span class="bold m10-right"><strong>Closing :</strong></span>20 Jan 2016</li>
                                         <li><span class="bold m10-right"><strong>Salary :</strong></span>N100,000 - N150,000</li>
                                       </ul>
                                     </div>
