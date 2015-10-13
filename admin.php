@@ -27,8 +27,8 @@
                 <div class="panel-body">
                 <legend>Settings</legend>
                 <ul class="list-group nav nav-tabs nav-stacked">
-                  <li><a href="#overview" data-toggle="tab">Overview</a></li>
-                  <li class="active"><a href="#posts" data-toggle="tab">Posts</a></li>
+                  <li class="active"><a href="#overview" data-toggle="tab">Overview</a></li>
+                  <li><a href="#posts" data-toggle="tab">Posts</a></li>
                   <li><a href="#settings" data-toggle="tab">Settings</a></li>
                 </ul>
                 </div>
@@ -36,10 +36,10 @@
               </div>
               <div class="col-md-10">
                 <div class="tab-content" id="adminTab">
-                  <div id="overview" class="tab-pane fade">
+                  <div id="overview" class="tab-pane fade active in">
                     <p>hello</p>
                   </div>
-                  <div id="posts" class="tab-pane fade active in">
+                  <div id="posts" class="tab-pane fade">
                     <table id="table_id" class="display">
                         <thead>
                             <tr>

@@ -32,8 +32,8 @@
                   </li>
                   <li class="active"><a href="../admin.php"><i class="fa fa-home"></i> Admin Home</a>
                   </li>
-                  <li><a href="http://411jobs.local/">View Blog</a></li>
-                  <li><a href="">New Post</a></li>
+                  <li><a href="http://411jobs.local/" target="_blank">View Blog</a></li>
+                  <li><a href="../new-post.php">New Post</a></li>
                   <li><a href="../admin.php#overview" target="_blank">View Posts</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
